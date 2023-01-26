@@ -29,9 +29,25 @@ public class Gallery {
         stock.add(artwork);
     }
 
-
+// conditional statements for checking stock of artwork
     public void sellArtwork(Artwork artwork, Customer customer) {
+        if (stock.contains(artwork)){
+            stock.remove(artwork);
+            customer.buyArtwork(artwork);
+            till += artwork.getPrice();
+        } else {
+            System.out.println("Sorry we do not have that artwork");
+        }
     }
+
+    public double stock_take(){
+        double total = 0;
+        for (Artwork artwork : stock){
+            total += artwork.getPrice();
+        }
+        return total;
+    }
+
 }
 
 
