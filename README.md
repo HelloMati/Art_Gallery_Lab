@@ -7,7 +7,7 @@ The aim of this lab is to plan and create an object-oriented model of an art gal
 Make sure you create a separate file for each class and a separate test file for each class.
 
 ---
-**Task
+<strong> Task </strong>
 
 Gallery has a name, a till and a collection of stock that contains Artwork objects.
 
