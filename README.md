@@ -7,6 +7,8 @@ The aim of this lab is to plan and create an object-oriented model of an art gal
 Make sure you create a separate file for each class and a separate test file for each class.
 
 ---
+# Task
+
 Gallery has a name, a till and a collection of stock that contains Artwork objects.
 
 A piece of Artwork contains a title, an artist, a price and an nft (non-fungible token).
